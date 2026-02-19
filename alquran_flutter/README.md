@@ -1,28 +1,26 @@
 # Al-Qur'an Flutter App (AlQuran Cloud)
-## Author
 
+Aplikasi Al-Qur'an sederhana menggunakan Flutter + AlQuran Cloud API.
+
+## Author
 Created by **ajiputra**
-Aplikasi Al-Qur'an sederhana (Flutter) menggunakan AlQuran Cloud API.
 
 ## Fitur
 - Daftar surah
-- Detail surah (teks Arab) + terjemahan Indonesia (id.indonesian)
-- UI sederhana (Material 3)
+- Search surah
+- Detail surah (Arab) + Terjemahan Indonesia (id.indonesian)
+- Audio murattal per ayat (edition: ar.alafasy)
+- Dark Mode toggle
+- Branding footer: "Created by ajiputra"
 
 ## Cara menjalankan (lokal)
-> Folder ini sengaja ringan (tanpa folder android/ios) agar mudah diupload ke repo event.
+> Folder ini sengaja ringan (tanpa folder android/ios) agar mudah diupload.
 
 1. Install Flutter SDK
 2. Masuk ke folder `alquran_flutter/`
 3. Generate file platform (sekali saja):
    ```bash
    flutter create .
-   ```
-4. Jalankan:
-   ```bash
-   flutter pub get
-   flutter run
-   ```
 
 ## API
 - Surah list: `https://api.alquran.cloud/v1/surah`
