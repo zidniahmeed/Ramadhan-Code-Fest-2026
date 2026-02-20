@@ -58,3 +58,6 @@
 [submodule "shoppingcart"]
 	path = shoppingcart
 	url = https://github.com/Nipaaaa1/shoppingcart.git
+[submodule "gov-wtf"]
+	path = gov-wtf
+	url = https://github.com/euxzy/gov-wtf.git
