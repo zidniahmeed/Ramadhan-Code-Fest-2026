@@ -76,3 +76,6 @@
 [submodule "auriya"]
 	path = auriya
 	url = https://github.com/pavelc4/auriya.git
+[submodule "Rin"]
+	path = Rin
+	url = https://github.com/pavelc4/Rin.git
